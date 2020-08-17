@@ -1,0 +1,23 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "study webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasmine",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

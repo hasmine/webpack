@@ -1,0 +1,30 @@
+{
+  "name": "day9-webpack-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack.dev.js",
+    "dev:start": "webpack-dev-server --open --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less-loader": "^6.2.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  }
+}
